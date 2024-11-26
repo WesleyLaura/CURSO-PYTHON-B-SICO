@@ -2,8 +2,8 @@ nombre=input("\nIngres su nombre:\n")
 print(f"Hola,{nombre}")
 
 print("\n\tHola bienvenido a nuestro programa basico de python\n")
-while True:
-    try:
+while True:  # esta validacion ve si la edad es numero positivo
+    try: #validaciones de expecciones, la edad siempre sera un numero entero positivo
 
         edad=int(input("Ingrese su edad(EDAD POSITIVA): "))
     
