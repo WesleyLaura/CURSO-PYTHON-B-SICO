@@ -11,7 +11,7 @@ sol5 = fsolve(ej5, [1, 1])
 print("Ejercicio 5: ", sol5)
 
 #Graficar , estras 3 lineas siguientes son las medidas de nuestra ventana en cual es va mostrar la grafica
-x = mp.linspace(-3, 3, 400)
+x = mp.linspace(-1.9, 3, 400)
 y = mp.linspace(-3, 3, 400)
 X, Y = mp.meshgrid(x , y)
 
